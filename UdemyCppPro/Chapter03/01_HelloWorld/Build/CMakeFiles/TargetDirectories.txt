@@ -1,0 +1,3 @@
+/home/calle68/01_Cpp/VSCode/UdemyCppPro/Chapter03/01_HelloWorld/Build/CMakeFiles/MyProjekt.dir
+/home/calle68/01_Cpp/VSCode/UdemyCppPro/Chapter03/01_HelloWorld/Build/CMakeFiles/edit_cache.dir
+/home/calle68/01_Cpp/VSCode/UdemyCppPro/Chapter03/01_HelloWorld/Build/CMakeFiles/rebuild_cache.dir
