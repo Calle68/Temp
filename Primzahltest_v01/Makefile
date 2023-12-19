@@ -35,8 +35,8 @@ endif
 
 COMPILER_CALL = $(CXX) $(CXXFLAGS) $(CPPFLAGS)
 
-CXX_SOURCES = $(wildcard $(SOURCE_DIR)/*.cc)
-CXX_OBJECTS = $(patsubst $(SOURCE_DIR)/%.cc, $(BUILD_DIR)/%.o, $(CXX_SOURCES))
+CXX_SOURCES = $(wildcard $(SOURCE_DIR)/*.cpp)
+CXX_OBJECTS = $(patsubst $(SOURCE_DIR)/%.cpp, $(BUILD_DIR)/%.o, $(CXX_SOURCES))
 
 ###############
 ## TARGETS   ##
@@ -61,7 +61,7 @@ clean:
 ##############
 # $@: the file name of the target
 # $<: the name of the first dependency
-$(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.cc
+$(BUILD_DIR)/%.o: $(SOURCE_DIR)/%.cpp
 	$(COMPILER_CALL) -c $< -o $@
 
 ###########
