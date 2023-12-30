@@ -3,8 +3,7 @@
 class cli
 {
     public:
-    int zahl1;
-    int zahl2;
+    int zahl;
     int abfrage();
     int ausgabe(int ergebnis);
 };
