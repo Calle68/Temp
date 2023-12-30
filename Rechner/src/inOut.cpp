@@ -6,10 +6,8 @@ using namespace std;
 int cli::abfrage()
 {
     std::cout << "Neue Abfrage!" << std::endl;
-    std::cout << "Bitte erste Zahl eingeben" << std::endl;
-    std::cin >> zahl1;
-    std::cout << "Bitte zweite Zahl eingeben" << std::endl;
-    std::cin >> zahl2;
+    std::cout << "Bitte eine Zahl eingeben" << std::endl;
+std::cin >> zahl >> std:: endl;
 
     return 0;
 }
