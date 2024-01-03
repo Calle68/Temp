@@ -5,14 +5,14 @@
 using namespace std;
 
 
-int rArten::addieren(int zahl1, int zahl2)
+int rArten::addieren(int zahl)
 {
-    ergebnis = zahl1 + zahl2;
+    ergebnis = zahl;
     return ergebnis;
 }
 
-int rArten::subtrahieren(int zahl1, int zahl2)
+int rArten::subtrahieren(int zahl)
 {
-    ergebnis = zahl1 - zahl2;
+    ergebnis = zahl;
     return ergebnis;
 }

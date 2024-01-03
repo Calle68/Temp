@@ -10,14 +10,8 @@ rArten rechenArt;
 
 int main()
 {
-    std::cout << "Addieren" << std::endl;
-    ioCli.abfrage();
-    rechenArt.addieren(ioCli.zahl1, ioCli.zahl2);
-    ioCli.ausgabe(rechenArt.ergebnis);
-
-    std::cout << "Subtrahieren" << std::endl;
-    ioCli.abfrage();
-    rechenArt.subtrahieren(ioCli.zahl1, ioCli.zahl2);
+    std::cout << "Rechner" << std::endl;
+    ioCli.abfrage();    
     ioCli.ausgabe(rechenArt.ergebnis);
 
     return 0;
