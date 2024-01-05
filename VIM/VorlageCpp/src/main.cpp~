@@ -1,0 +1,8 @@
+include <iostream>
+#include "include01.h"
+#include "include02.h"
+
+int main()
+{
+	//Code
+}
